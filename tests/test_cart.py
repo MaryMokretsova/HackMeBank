@@ -16,7 +16,7 @@ class TestCart:
         with allure.step("Input user email"):
             cart_page.fill_user_email('cameron105@mail.ru')
         with allure.step("Input user phone"):
-            cart_page.fill_user_phone_number('1234567890')
+            cart_page.fill_user_phone_number('89066507070')
         with allure.step("Input password"):
             cart_page.fill_password(VALID_CREDENTIALS.password)
         with allure.step("Input repeat password"):
