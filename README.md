@@ -49,7 +49,7 @@
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий
 ```ruby
-gh repo clone MaryMokretsova/qa_guru_python_9_15
+gh repo clone MaryMokretsova/HackMeBank
 ```
 2. Создайте и активируйте виртуальное окружение
   ```ruby
