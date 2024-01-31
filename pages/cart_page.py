@@ -42,7 +42,7 @@ class CartPage:
 
     def submit_the_form(self):
         browser.element('#submitLogin').click()
-            time.sleep(1)
+        time.sleep(1)
         browser.driver.switch_to.alert.accept()
         return self
 
