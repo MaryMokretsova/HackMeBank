@@ -1,4 +1,5 @@
 from selene import browser, have, be
+import time
 
 
 class CartPage:
@@ -41,6 +42,8 @@ class CartPage:
 
     def submit_the_form(self):
         browser.element('#submitLogin').click()
+            time.sleep(1)
+        browser.driver.switch_to.alert.accept()
         return self
 
 # OK
