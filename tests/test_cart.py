@@ -27,3 +27,11 @@ class TestCart:
             cart_page.second_checkbox()
         with allure.step("Submit the form"):
             cart_page.submit_the_form()
+        with allure.step("Assert name modal window security code"):
+            cart_page.assert_name_modal_window('Код проверки')
+        with allure.step("Input numbers in modal window security code"):
+            cart_page.input_modal_window()
+        with allure.step("Submit the modal window"):
+            cart_page.submit_modal_window()
+        with allure.step("Assert answer system after invalid data"):
+            cart_page.assert_answer_modal_window('Неверный код')
